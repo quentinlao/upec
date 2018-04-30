@@ -1,0 +1,46 @@
+créer un fichier pour le pattern et mets par exemple "z d s q z s q q q q d z"
+
+dans le programme, dans la boucle infinie, récupérer les caractères un à un 
+	vérifier si c'est un caractère normal ou un espace 
+		si caractère
+			faire un mouvement
+		si espace
+			lire le caractère suivant
+dès que le caractère est trouvé, faire a++ et b++ et autres
+si on dépasse LONGUEUR ou LARGUEUR
+	passer au caractère suivant
+sinon
+	faire l'affichage du tableau
+sleep(2)
+system("clear")    //va clear l'affichage du terminal
+
+Enfin, mets tout ça dans une fonction qui prendra en argument le tableau, qui ne renvoie rien, qui ouvrira toujours le même fichier et fera ce que j'ai décris au-dessus
+
+Si tu veux faire plus, essayes de remplacer les "z q s d" dans le fichier par des "1", "0" et "-1" qui sont les caractères qu'on doit gérer et qui sont dispatchés sur deux lignes
+la première ligne concerne les déplacements verticaux, donc regardes le caractère
+
+
+si "1" alors a--				//(en considérant que "a" représente l'axe vertical et "b" l'horizontal, donc a-- monte)
+si "-"
+	lire le caractères suivant
+	si "1" alors a++
+si espace alors lire le caractères suivant
+sinon, ne rien faire
+
+le seconde ligne concerne les déplacements horizontaux, donc on fait la même chose qu'au dessus, en changeant "a" par "b"
+et
+
+si on dépasse LONGUEUR ou LARGUEUR
+	passer au caractère suivant
+sinon
+	faire l'affichage du tableau
+sleep(2)
+system("clear")
+
+
+
+Exemple:
+1 0 0 1 -1 -1 0 -1 -1 -1 0 -1
+0 1 1 -1 0 1 -1 0 1 1 1 1
+
+Ceci fera que le 1, en considérant qu'il est à la case [25][50] au départ, finira à la case [27][45]

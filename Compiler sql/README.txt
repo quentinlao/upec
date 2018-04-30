@@ -1,7 +1,6 @@
 README
 
-Kelly SENG u21507188
-Quentin LAO u21420391
+Quentin LAO 
 Licence 3 Informatique
 
 Projet : Interprète du langage SQL en OCAML

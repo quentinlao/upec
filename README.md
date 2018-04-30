@@ -1,3 +1,7 @@
 # upec
 Bachelor's degree 
-Personnal project, don't copy paste, and use it to understand and learn idea. 
+Personnal project from Université Paris-Est-Créteil.
+
+Don't cheat use it to understand and learn idea. 
+
+Creator : Quentin LAO

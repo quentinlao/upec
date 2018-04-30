@@ -1,0 +1,32 @@
+Journal de bord :
+-Creation "brique de base"
+-Si appreil bluetooth demande la connexion bluetooth
+-Affichage liste des appareils deja paired bluetooth
+-Afichage des appareils dispo (bug qd un appareil disparait il reste encore)
+-Rend decouvrable notre appareil
+
+
+23/02 Essaie client server (Ne fait rien)
+-Dans play_activity
+    -Client affiche spinner liste appareil apparé
+    -Serveur mode serveur listening et execution
+    
+27/02 Remise a zero (version degueulasse)
+-Client / Server en bluetooth apparé obligatoire
+-"dup" le client et utilise le serveur en ressource partagée 
+-envoie reponse client to server ok 
+
+02/03 Probleme apres 7 thread (7 clients)
+-Test de zero sans thread
+
+05/03 Test envoie data 
+-envoie question 1 ok
+-recuperation liste client ok 
+-Todo test avec 2+
+
+08/03 Probleme java.io.IOException: read failed, socket might closed, read ret: -1.
+Rien ne marche ..
+
+09/03 Abandon multi car : probleme socket (doublon ? fermer ? port du uuid ? Bluetooth LTE ? light 1 apparaige max ?)
+-Soloplayer fait
+-maquette psd fait
